@@ -34,10 +34,10 @@ export default {
   data() {
     return {
       images: [
-        { src: 'src/assets/portfolioPic/pPlakat1.png', alt: 'Image 1' },
-        { src: 'src/assets/portfolioPic/pPlakat2.png', alt: 'Image 2' },
-        { src: 'src/assets/portfolioPic/pPlakat3.png', alt: 'Image 3' },
-        { src: 'src/assets/portfolioPic/pPlakat4.png', alt: 'Image 4' },
+        { src: '/assets/portfolioPic/pPlakat1.png', alt: 'Image 1' },
+        { src: '/assets/portfolioPic/pPlakat2.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/pPlakat3.png', alt: 'Image 3' },
+        { src: '/assets/portfolioPic/pPlakat4.png', alt: 'Image 4' },
         // Add more images as needed
       ]
     };
