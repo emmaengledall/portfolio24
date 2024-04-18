@@ -2,21 +2,26 @@
 
 <script setup>
  import imagePathPortfolio2 from '@/assets/pngFiles/scribble09.png';
+ import imageAsset02 from '@/assets/pngFiles/Asset02.png';
 </script>
 
 <template>
-  <div class="bg-red-800 w-screen h-screen font-AndaleMo text-amber-100 pl-10 pt-20 pb-20 grid grid-cols-2  ">
+  <div class="bg-red-800 w-screen h-screen font-AndaleMo text-amber-100 pl-10 pb-20 grid grid-cols-2  ">
+
+    <RouterLink to="/" class="absolute justify-self-center opacity-60 pt-3">
+    <img :src="imageAsset02" alt="home" > <!-- home click image -->
+    </RouterLink>
     
-    <div class="absolute size-12/12 pt-20 opacity-40">
+    <div class="absolute size-12/12 pt-40 opacity-40">
       <img :src="imagePathPortfolio2" alt="woopss">
     </div>
 
-    <div class="Portfolio col-span-1 text-sm z-10">
+    <div class="Portfolio col-span-1 text-sm z-10 pt-20">
       <RouterLink to="/">// PORTFOLIO</RouterLink> <!--THE ROUTERLINK TO GO HOOOOME :))-->
       <br> <br><br><br><br><br><br><br><br><br><br>
 
       <div>
-        <h1 class="text-sm z-10">RECENT WORK</h1>
+        <h1 class="text-sm z-10 pt-20">RECENT WORK</h1>
         <br>                      <!--THE <h1> AND <p> IS WRAPPED IN THE h1-div -->
           <p class="leading-loose text-sm z-10">Here's a showcase of my recent work. You'll find anything from <br>
             3D-modelling to coded designs, made in both processing, HTML, CSS, <br>
@@ -30,7 +35,7 @@
         
         
                            <!-- HERE WE GOT THE PORTFOLIO PROJECTS, THEY ARE WRAPPED IN THEIR OWN DIV-->
-        <div class="flex flex-col justify-center text-center justify-around z-10"> 
+        <div class="flex flex-col justify-center text-center justify-around z-10 pt-20"> 
           
         
           
