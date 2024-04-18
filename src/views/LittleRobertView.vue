@@ -42,9 +42,9 @@ export default {
   data() {
     return {
       images: [
-        { src: 'src/assets/portfolioPic/LR01.png', alt: 'Image 1' },
-        { src: 'src/assets/portfolioPic/LR02.png', alt: 'Image 2' },
-        { src: 'src/assets/portfolioPic/LR03.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/LR01.png', alt: 'Image 1' },
+        { src: '/assets/portfolioPic/LR02.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/LR03.png', alt: 'Image 2' },
         
         // Add more images as needed
       ]

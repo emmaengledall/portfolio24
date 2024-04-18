@@ -40,8 +40,8 @@ export default {
   data() {
     return {
       images: [
-        { src: 'src/assets/portfolioPic/CP01.png', alt: 'Image 1' },
-        { src: 'src/assets/portfolioPic/CP02.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/CP01.png', alt: 'Image 1' },
+        { src: '/assets/portfolioPic/CP02.png', alt: 'Image 2' },
         
         // Add more images as needed
       ]
