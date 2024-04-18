@@ -43,12 +43,12 @@ export default {
     return {
       images: [
         { src: '/assets/portfolioPic/EP02.png', alt: 'Image 2' },
-        { src: 'src/assets/portfolioPic/EP01.png', alt: 'Image 1' },
-        { src: 'src/assets/portfolioPic/EP03.png', alt: 'Image 2' },
-        { src: 'src/assets/portfolioPic/EP04.png', alt: 'Image 2' },
-        { src: 'src/assets/portfolioPic/EP05.png', alt: 'Image 2' },
-        { src: 'src/assets/portfolioPic/EP06.png', alt: 'Image 2' },
-        { src: 'src/assets/portfolioPic/EP07.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/EP01.png', alt: 'Image 1' },
+        { src: '/assets/portfolioPic/EP03.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/EP04.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/EP05.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/EP06.png', alt: 'Image 2' },
+        { src: '/assets/portfolioPic/EP07.png', alt: 'Image 2' },
         
         // Add more images as needed
       ]
