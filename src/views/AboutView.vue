@@ -8,13 +8,10 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
 
 <template>
 <div class="bg-amber-100 w-screen h-screen grid grid-rows-3 grid-cols-2">
-  <RouterLink to="/" class="absolute justify-self-center opacity-60 pt-3">
-    <img :src="imageAsset" alt="home" > <!-- home click image -->
-    </RouterLink>
 
   
 
-  <div class="absolute size-12/12 pt-40 opacity-60 pl-10">
+  <div class="absolute size-12/12 pt-40 opacity-60 pl-10 ">
     <img :src="imagePathAbout" alt="woopss">
   </div>
 

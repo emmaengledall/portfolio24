@@ -2,15 +2,10 @@
 
 <script setup>
  import imagePathPortfolio2 from '@/assets/pngFiles/scribble09.png';
- import imageAsset02 from '@/assets/pngFiles/Asset02.png';
 </script>
 
 <template>
   <div class="bg-red-800 w-screen h-screen font-AndaleMo text-amber-100 pl-10 pb-20 grid grid-cols-2  ">
-
-    <RouterLink to="/" class="absolute justify-self-center opacity-60 pt-3">
-    <img :src="imageAsset02" alt="home" > <!-- home click image -->
-    </RouterLink>
     
     <div class="absolute size-12/12 pt-40 opacity-40">
       <img :src="imagePathPortfolio2" alt="woopss">
