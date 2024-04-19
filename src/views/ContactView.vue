@@ -27,7 +27,7 @@ import imagePathContact from '@/assets/pngFiles/scribble08.png';
          <div class="text-sm leading-loose z-10 "> SoMe:
             
             <a href="https://www.linkedin.com/in/emma-chantal-engledall-1a36002a0/ " class="inline-block cursor-pointer hover:underline p-1"> LinkedIn </a> 
-            <a href="https://github.com/emmaengledall" class="inline-block cursor-pointer hover:underline p-1"> Github  </a> 
+            <a href="https://github.com/emmaengledall" class="inline-block cursor-pointer hover:underline p-1"> GitHub  </a> 
             <a href="https://www.instagram.com/emmaengledall/" class="inline-block cursor-pointer hover:underline p-1"> Instagram </a>
          </div>
     </div>
