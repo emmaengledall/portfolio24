@@ -12,7 +12,7 @@
     </div>
 
     <div class="Portfolio col-span-1 text-sm z-10 pt-20">
-      <RouterLink to="/">// PORTFOLIO</RouterLink> <!--THE ROUTERLINK TO GO HOOOOME :))-->
+      <RouterLink to="/">// HOME</RouterLink> <!--THE ROUTERLINK TO GO HOOOOME :))-->
       <br> <br><br><br><br><br><br><br><br><br><br>
 
       <div>

@@ -14,7 +14,7 @@ import imagePathContact from '@/assets/pngFiles/scribble08.png';
 
 
     <div class="contact pt-20 flex flex-col text-sm z-10">
-        <RouterLink to="/">// CONTACT</RouterLink> <!-- WORKS AS A ROUTERLINK TO HOMEPAGE-->
+        <RouterLink to="/">// HOME</RouterLink> <!-- WORKS AS A ROUTERLINK TO HOMEPAGE-->
     </div> 
 
     <div class="text-3xl pt-5 z-10">

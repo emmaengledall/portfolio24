@@ -18,7 +18,7 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
 
 
   <div class="about absolute font-AndaleMo pl-10 pt-20 text-sm z-20 ">
-    <RouterLink to="/">// ABOUT</RouterLink> <!-- WORKS AS A ROUTERLINK TO HOMEPAGE-->
+    <RouterLink to="/">// HOME</RouterLink> <!-- WORKS AS A ROUTERLINK TO HOMEPAGE-->
   </div>
    
 
