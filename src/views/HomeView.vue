@@ -221,7 +221,7 @@
     grid-template-columns: 1fr; /* ✅ korrekt */
     grid-template-rows: repeat(4, auto);
     gap: 1rem;
-    padding-top: 8%;
+    padding-top: 0%;
     font-size: small;
   }
 
@@ -229,8 +229,9 @@
     grid-row-start: 4;
     grid-column-start: 1;
     grid-column: 1;
-    padding-top: 10%;
-    font-size: small;    
+    padding-top: 1%;
+    font-size: small;   
+    overflow-y: auto;  
   }
 
   .titler {

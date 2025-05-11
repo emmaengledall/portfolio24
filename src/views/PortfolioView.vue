@@ -5,14 +5,14 @@
 </script>
 
 <template>
-  <div class="bg-red-800 max-w-screen min-h-screen overflow-hidden font-AndaleMo text-amber-100 pl-[7%] pr-[7%] pb-20 grid grid-cols-1 
+  <div class="Wrapper bg-red-800 max-w-screen min-h-screen overflow-hidden font-AndaleMo text-amber-100 pl-[7%] pr-[7%] pb-20 grid grid-cols-1 
   md:grid-cols-2 grid-rows-1 gap-1 ">
 
-    <div class="absolute pt-[20%] opacity-40 sm:pt-[20%] md:pt-[9%] pr-[3%]">
+    <div class="absolute pt-[20%] opacity-40 sm:pt-[10%] md:pt-[9%] pr-[3%]">
       <img :src="imagePathPortfolio2" alt="woopss">
     </div>
 
-    <div class="Portfolio col-span-1 text-sm z-10 pt-[10%] ">
+    <div class="Portfolio col-span-1 text-sm z-10 pt-[0%] ">
       <RouterLink to="/">// HOME</RouterLink>
       <br><br><br><br><br><br><br><br><br><br>
 
@@ -138,9 +138,8 @@
 @media (max-width: 640px) {
   .project {
     margin-bottom: 0.25rem; /* Tighten project spacing */
-    margin-top: 2rem;
+    margin-top: 02rem;
   }
-
 
 
   .slide-group {
