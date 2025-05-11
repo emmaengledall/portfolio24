@@ -146,6 +146,8 @@
     gap: 0.25rem; /* Maintain tight spacing between groups on small screens */
   }
 
+ 
+
 }
 
 /* Basic styling for body */
