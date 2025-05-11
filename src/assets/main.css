@@ -8,5 +8,9 @@
   /* Add other font formats if needed */
 }
 
+body{
+  overflow: hidden;
+}
+
 
   

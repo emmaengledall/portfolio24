@@ -18,9 +18,9 @@
 
 
 <template>
-    <div >
+    <div>
                                     <!-- DIV FOR ONLY ROUTERLINK STYLE-->
-  <div class="text-sm absolute wrapper bg-amber-100 font-AndaleMo w-screen h-screen grid grid-cols-2 grid-rows-3"> 
+  <div class="wrapper text-sm absolute bg-amber-100 font-AndaleMo w-screen h-screen grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-rows-3"> 
     
     <!-- HOMEPAGE BUTTON/LOGO?? if needed -->
       <div class=""> 
@@ -31,8 +31,8 @@
 
 
                                       <!-- ABOUT LINK PÅ HOMEPAGE -->
-      <div class=" relative row-start-1 pl-14 pt-5 flex flex-col justify-center"> 
-        <h1>// ABOUT</h1>
+      <div class=" relative row-start-1 md:pl-14 pt-5 flex flex-col justify-center sm:pl-0"> 
+        <h1 class="titler">// ABOUT</h1>
         <div class="size-9/12 pl-14">
           <img :src="imagePathAbout" alt="woopss">
         </div> 
@@ -56,8 +56,8 @@
 
 
                                     <!-- PORTFOLIOOOOOOOO LINK PÅ HOMEPAGE -->
-      <div class="relative row-start-2 pl-14 flex flex-col justify-center pt-5"> 
-        <h1>// PORTFOLIO</h1>
+      <div class="relative row-start-2 md:pl-14 flex flex-col justify-center pt-5"> 
+        <h1 class="titler">// PORTFOLIO</h1>
         <div class="size-9/12 pl-14">
           <img :src="imagePathPortfolio" alt="wooops2">
         </div>
@@ -81,8 +81,8 @@
 
 
                                         <!-- CONTACT LINK PÅ HOMEPAGE -->
-      <div class="relative row-start-3 text-start pl-14 flex flex-col justify-center pt-5"> 
-        <h1>// CONTACT</h1>
+      <div class="relative row-start-3 text-start md:pl-14 flex flex-col justify-center pt-5"> 
+        <h1 class="titler">// CONTACT</h1>
         <div class="size-9/12 pl-14">
           <img :src="imagePathContact" alt="wooops3" >
         </div>
@@ -102,10 +102,10 @@
 
 
                                             <!-- WELCOME TEXT ON WEBSITE-->
-      <div class="relative leading-loose row-start-3 flex-col justify-center pt-24 pl-20" > 
-        <h1 class="text-sm"> EMMA-CHANTAL ENGLEDALL</h1>
+      <div class="mainText relative leading-loose flex-col justify-center pt-[10%] pl-[5%] md:row-start-3 sm:row-start-4" > 
+        <h1 class="md:text-sm"> EMMA-CHANTAL ENGLEDALL</h1> 
         
-          <p class="text-sm">
+          <p class="md:text-sm"> 
               frontend developer // website designer // coded designer <br><br>
               With a strong technical background and a passion for aesthetics <br> and design. 
               Currently pursuing a degree in Visual Communication <br>
@@ -215,6 +215,30 @@
   stroke-dashoffset: 530;
 }
 
+@media (max-width: 768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr; /* ✅ korrekt */
+    grid-template-rows: repeat(4, auto);
+    gap: 1rem;
+    padding-top: 8%;
+    font-size: small;
+  }
+
+  .mainText {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column: 1;
+    padding-top: 10%;
+    font-size: small;    
+  }
+
+  .titler {
+    padding-left: 10%;
+    font-size: small;
+  }
 
 
+}
+  
 </style>

@@ -5,78 +5,154 @@
 </script>
 
 <template>
-  <div class="bg-red-800 w-screen h-screen font-AndaleMo text-amber-100 pl-10 pb-20 grid grid-cols-2  ">
-    
-    <div class="absolute size-12/12 pt-40 opacity-40">
+  <div class="bg-red-800 max-w-screen min-h-screen overflow-hidden font-AndaleMo text-amber-100 pl-[7%] pr-[7%] pb-20 grid grid-cols-1 
+  md:grid-cols-2 grid-rows-1 gap-1 ">
+
+    <div class="absolute pt-[20%] opacity-40 sm:pt-[20%] md:pt-[9%] pr-[3%]">
       <img :src="imagePathPortfolio2" alt="woopss">
     </div>
 
-    <div class="Portfolio col-span-1 text-sm z-10 pt-20">
-      <RouterLink to="/">// HOME</RouterLink> <!--THE ROUTERLINK TO GO HOOOOME :))-->
-      <br> <br><br><br><br><br><br><br><br><br><br>
+    <div class="Portfolio col-span-1 text-sm z-10 pt-[10%] ">
+      <RouterLink to="/">// HOME</RouterLink>
+      <br><br><br><br><br><br><br><br><br><br>
 
-      <div>
-        <h1 class="text-sm z-10 pt-20">RECENT WORK</h1>
-        <br>                      <!--THE <h1> AND <p> IS WRAPPED IN THE h1-div -->
-          <p class="leading-loose text-sm z-10">Here's a showcase of my recent work. You'll find anything from <br>
-            3D-modelling to coded designs, made in both processing, HTML, CSS, <br>
-            Javascript. Go get lost, in my recent creative wonders. <br>
-            - pssssst... this website is my first time working with framework!</p>
+      <div class="md:pt-[5%]">
+        <h1 class="text-sm z-10">RECENT WORK</h1>
+        <br>
+        <p class="leading-loose text-sm z-10">
+          Here's a showcase of my recent work. You'll find anything from <br>
+          3D-modelling to coded designs, made in both processing, HTML, CSS, <br>
+          Javascript. Go get lost, in my recent creative wonders. <br>
+          - pssssst... this website is my first time working with framework!
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="flex flex-col justify-center text-center justify-around z-10 md:pt-[40%] md:pl-[30%]"> 
+      <div class="scroll-snap-card">
+
+        <!-- Slide Group 1 -->
+        <div class="slide-group">
+          <div class="project text-center sm:text-left w-full">
+            <RouterLink to="/PiDay" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">PI-DAY POSTER</RouterLink>
+            <p class="text-sm">- processing, Dec. 23</p>
           </div>
-          
+          <div class="project text-center sm:text-left w-full">
+            <RouterLink to="/NativeAmericans" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">NATIVE AMERICANS</RouterLink>
+            <p class="text-sm">- processing, Dec. 23</p>
+          </div>
+          <div class="project text-center sm:text-left w-full">
+            <RouterLink to="/ExamProject01" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">EXAM PROJECT 01</RouterLink>
+            <p class="text-sm">- product design, Jan. 24</p>
+          </div>
         </div>
-        
-        
-        
-        
-                           <!-- HERE WE GOT THE PORTFOLIO PROJECTS, THEY ARE WRAPPED IN THEIR OWN DIV-->
-        <div class="flex flex-col justify-center text-center justify-around z-10 pt-20"> 
-          
-        
-          
-        <div>
-          <RouterLink to="/PiDay" class="inline-block cursor-pointer hover:line-through text-3xl">PI-DAY POSTER</RouterLink>
-          <div class="absolute inset-x-0 bottom-0 h-0.5 origin-x-center opacity-0 transition-opacity"></div>
-         <p class="text-sm">- processing, Dec. 23</p>
-       </div> 
+
+        <!-- Slide Group 2 -->
+        <div class="slide-group">
+          <div class="project text-center sm:text-left w-full">
+            <RouterLink to="/LittleRobert" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">LITTLE ROBERT</RouterLink>
+            <p class="text-sm">- 3D-modelling, Nov. 23</p>
+          </div>
+          <div class="project text-center sm:text-left w-full">
+            <RouterLink to="/CodedPostcard" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">CODED POSTCARD</RouterLink>
+            <p class="text-sm">- processing X axidraw, Dec. 23</p>
+          </div>
+          <div class="project text-center sm:text-left w-full">
+            <h1 >SCROLL ON ME</h1>
+            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+          </div>
+        </div>
+
+        <!-- Slide Group 3 -->
+        <div class="slide-group">
+
+          <div class="project text-center sm:text-left w-full">
+            <h1>SCROLL ON ME</h1>
+            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+          </div>
+
+          <div class="project text-center sm:text-left w-full">
+            <h1>SCROLL ON ME</h1>
+            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+          </div>
+
+          <div class="project text-center sm:text-left w-full">
+            <h1>SCROLL ON ME</h1>
+            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+          </div>
 
 
-        <div>
-          <div class="absolute inset-x-0 bottom-0 h-0.5 origin-bottom transform scale-x-0 transition-transform duration-300"></div>
-          <RouterLink to="/NativeAmericans" class="inline-block cursor-pointer hover:line-through text-3xl">NATIVE AMERICANS</RouterLink>
-          <p class="text-sm">- processing, Dec. 23</p>
-       </div> 
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</template>
 
 
-       <div>
-        <div class="absolute inset-x-0 bottom-0 h-0.5 origin-bottom transform scale-x-0 transition-transform duration-300"></div>
-        <RouterLink to="/ExamProject01" class="inline-block cursor-pointer hover:line-through text-3xl">EXAM PROJECT 01</RouterLink>
-         <p class="text-sm">- product design, Jan. 24</p>
-       </div> 
-      
-
-       <div>
-        <div class="absolute inset-x-0 bottom-0 h-0.5 bg-black origin-bottom transform scale-x-0 transition-transform duration-300"></div>
-        <RouterLink to="/LittleRobert" class="inline-block cursor-pointer hover:line-through text-3xl">LITTLE ROBERT</RouterLink>
-         <p class="text-sm">- 3D-modelling, Nov. 23</p>
-        </div> 
 
 
-       <div>
-        <div class="absolute inset-x-0 bottom-0 h-0.5 bg-black origin-bottom transform scale-x-0 transition-transform duration-300"></div>
-        <RouterLink to="/CodedPostcard" class="inline-block cursor-pointer hover:line-through text-3xl">CODED POSTCARD</RouterLink>
-          <p class="text-sm">- processing X axidraw, Dec. 23</p>
-       </div> 
-      
-      
-     </div> 
-      
-      
 
-</div>
-  </template>
+<style>
+/* Container for scrollable slides */
+.scroll-snap-card {
+  height: 450px;
+  width: 100%;
+  max-width: 600px;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
 
-  
-  <style>
-  </style>
-  
+/* Group of 3 projects */
+.slide-group {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Ensure no space at top/bottom of group */
+  height: 450px;
+  padding: 0;
+  gap: 0.25rem; /* Default tight spacing for smaller screens */
+}
+
+/* Individual project styling */
+.project {
+  margin-bottom: 0.25rem; /* Controls space between projects inside a group */
+}
+
+/* For larger screens (e.g., desktop, tablets), increase gap between groups */
+@media (min-width: 768px) {
+  .slide-group {
+    gap: 4.5rem; /* SPACE MELLEM PROJEKTER */
+    
+  }
+}
+
+
+
+/* For very small screens (iPhones, etc.), make space tighter */
+@media (max-width: 640px) {
+  .project {
+    margin-bottom: 0.25rem; /* Tighten project spacing */
+    margin-top: 2rem;
+  }
+
+
+
+  .slide-group {
+    gap: 0.25rem; /* Maintain tight spacing between groups on small screens */
+  }
+}
+
+/* Basic styling for body */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #991b1b; /* Tailwind bg-red-800 */
+}
+</style>
+
