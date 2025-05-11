@@ -8,15 +8,15 @@
   <div class="Wrapper bg-red-800 max-w-screen min-h-screen overflow-hidden font-AndaleMo text-amber-100 pl-[7%] pr-[7%] pb-20 grid grid-cols-1 
   md:grid-cols-2 grid-rows-1 gap-1 ">
 
-    <div class="absolute pt-[20%] opacity-40 sm:pt-[10%] md:pt-[9%] pr-[3%]">
+    <div class="bgPic absolute pt-[10%] opacity-40  sm:pt-[10%] md:pt-[9%] pr-[3%]">
       <img :src="imagePathPortfolio2" alt="woopss">
     </div>
 
-    <div class="Portfolio col-span-1 text-sm z-10 pt-[0%] ">
+    <div class="Portfolio col-span-1 text-sm z-10 pt-[3%] md:pt-[10%] ">
       <RouterLink to="/">// HOME</RouterLink>
-      <br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br>
 
-      <div class="md:pt-[5%]">
+      <div class="md:pt-[25%] sm:pt-[0%]">
         <h1 class="text-sm z-10">RECENT WORK</h1>
         <br>
         <p class="leading-loose text-sm z-10">
@@ -145,6 +145,7 @@
   .slide-group {
     gap: 0.25rem; /* Maintain tight spacing between groups on small screens */
   }
+
 }
 
 /* Basic styling for body */
