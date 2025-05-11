@@ -20,7 +20,7 @@
 <template>
     <div>
                                     <!-- DIV FOR ONLY ROUTERLINK STYLE-->
-  <div class="wrapper text-sm absolute bg-amber-100 font-AndaleMo w-screen h-screen grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-rows-3"> 
+  <div class="wrapper text-sm absolute bg-amber-100 font-AndaleMo w-screen h-screen grid grid-cols-2 md:grid-cols-2 md:pt-[3%] md:pl-[3%] sm:grid-cols-1 grid-rows-3"> 
     
     <!-- HOMEPAGE BUTTON/LOGO?? if needed -->
       <div class=""> 
@@ -31,7 +31,7 @@
 
 
                                       <!-- ABOUT LINK PÅ HOMEPAGE -->
-      <div class=" relative row-start-1 md:pl-14 pt-5 flex flex-col justify-center sm:pl-0"> 
+      <div class=" relative row-start-1 md:pl-14 flex flex-col justify-center sm:pl-0"> 
         <h1 class="titler">// ABOUT</h1>
         <div class="bgPic size-9/12 pl-14">
           <img :src="imagePathAbout" alt="woopss">
