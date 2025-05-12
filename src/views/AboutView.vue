@@ -7,19 +7,21 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
 
 
 <template>
-<div class="bg-amber-100 w-screen h-screen grid grid-rows-3 grid-cols-2">
+<div class="wrapper relative bg-amber-100 w-screen h-screen grid grid-rows-3 grid-cols-2">
 
   
+  
 
-  <div class="absolute size-12/12 pt-40 opacity-60 pl-10 ">
+  <div class="absolute size-12/12 sm:pt-[2%] md:pt-[7%] opacity-60 ">
     <img :src="imagePathAbout" alt="woopss">
   </div>
 
 
 
-  <div class="about absolute font-AndaleMo pl-10 pt-20 text-sm z-20 ">
-    <RouterLink to="/">// HOME</RouterLink> <!-- WORKS AS A ROUTERLINK TO HOMEPAGE-->
+  <div class="about absolute font-AndaleMo text-sm z-20 md:pl-[3%] md:pt-[5%]">
+  <RouterLink to="/">// HOME</RouterLink>
   </div>
+
    
 
 
@@ -47,7 +49,7 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
 
 
 
-<img :src="imagePortrait" alt="ejjj" class="relative w-[30vw] opacity-100 col-start-2 row-start-1 justify-self-center z-20 pt-48 ">
+<img :src="imagePortrait" alt="ejjj" class="miPhoto relative w-[30vw] opacity-100 col-start-2 row-start-1 justify-self-center z-20 pt-48 ">
 
 
 </div>
@@ -59,5 +61,24 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
 
 
 <style>
+
+@media (max-width: 640px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr; /* ✅ korrekt */
+    grid-template-rows: repeat(4, auto);
+    gap: 1rem;
+    padding-top: 0%;
+    font-size: small;
+    overflow-y: auto;
+
+  }
+
+  .miPhoto {
+    grid-column-start: 1;
+    
+  }
+}
+  
 
 </style>
