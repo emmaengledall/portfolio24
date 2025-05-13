@@ -1,5 +1,5 @@
 <template> 
-    <div class="ExamProject01 grid grid-cols-2 grid-rows-3 bg-red-800 w-screen h-screen font-AndaleMo text-amber-100 text-sm">
+    <div class="ExamProject01 grid grid-cols-2 grid-rows-3 bg-amber-100 w-screen h-screen font-AndaleMo text-black text-sm">
         <div class="pt-20 pl-10">   
             <RouterLink to="/Portfolio">// EXAM PROJECT 01</RouterLink>
         </div>
