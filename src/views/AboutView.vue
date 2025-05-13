@@ -12,12 +12,12 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
       <img :src="imagePathAbout" alt="woopss">
     </div>
 
-    <div class="about absolute font-AndaleMo text-sm z-20 md:pl-[3%] md:pt-[5%]">
+    <div class="about absolute  font-AndaleMo text-sm z-20 md:pl-[3%] md:pt-[5%]">
       <RouterLink to="/">// HOME</RouterLink>
     </div>
 
-    <div class="font-AndaleMo pl-10 pt-[26%] justify-center z-10 row-start-1 col-start-1">
-      <h1 class="text-3xl">HI THERE, I'M EMMA-CHANTAL.</h1>
+    <div class="text font-AndaleMo pl-10 pt-[26%] justify-center z-10 row-start-1 col-start-1">
+      <h1 class="md:text-3xl">HI THERE, I'M EMMA-CHANTAL.</h1>
       <br>
       <p class="mainText relative text-sm leading-loose">
         A versatile Frontend Developer, Website Designer, and Coded Designer, driven by a lifelong passion 
@@ -40,7 +40,7 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
   </div>
 </template>
 
-<style>
+<style scoped>
 @media (max-width: 640px) {
   .wrapper {
     display: grid;
@@ -52,12 +52,20 @@ import imageAsset from '@/assets/pngFiles/Asset01.png';
 
   /* Justér margin/padding for tekst for at få det til at se bedre ud */
   .mainText {
-    padding-top: 50%;
+    padding-top: 30%;
   }
   
   /* Fjerner kolonneopsætning for billeder og tekst */
   .miPhoto {
     grid-column-start: 1; /* Sikrer, at billedet ikke bruger en anden kolonne */
+  }
+
+  .text {
+    font-size: xx-large;
+  }
+
+  .about {
+    padding-right: 20%;
   }
 }
 </style>

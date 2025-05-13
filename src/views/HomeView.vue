@@ -126,7 +126,7 @@
 
 
 
-<style>
+<style scoped>
 
 body{
   background-color: rgb(254 243 199);
