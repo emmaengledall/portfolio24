@@ -60,8 +60,8 @@
             <p class="text-sm">- processing X axidraw, Dec. 23</p>
           </div>
           <div class="project text-center sm:text-left w-full">
-            <h1 >SCROLL ON ME</h1>
-            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+            <RouterLink to="/WhileInBattle" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">WHILE IN BATTLE, I'M FREE</RouterLink>
+            <p class="text-sm">- Interactive website, Jun. 24</p>
           </div>
         </div>
 
@@ -69,18 +69,18 @@
         <div class="slide-group">
 
           <div class="project text-center sm:text-left w-full">
-            <h1>SCROLL ON ME</h1>
-            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+            <RouterLink to="/DataVisualization" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">DATA VISUALIZATION</RouterLink>
+            <p class="text-sm">- Storytelling with data, Sep. 24</p>
           </div>
 
           <div class="project text-center sm:text-left w-full">
-            <h1>SCROLL ON ME</h1>
-            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+            <RouterLink to="/aHopeWithin" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">A HOPE WITHIN</RouterLink>
+            <p class="text-sm">- Projection mapping, Mar. 25</p>
           </div>
 
           <div class="project text-center sm:text-left w-full">
-            <h1>SCROLL ON ME</h1>
-            <p class="text-xl sm:text-3xl text-white">Scroll On Me</p>
+            <RouterLink to="/FroggyMan" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">FROGGY MAN</RouterLink>
+            <p class="text-sm">- Game Design, May. 25</p>
           </div>
 
 

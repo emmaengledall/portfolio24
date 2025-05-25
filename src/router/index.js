@@ -60,7 +60,30 @@ const router = createRouter({
       name: 'CodedPostcard',
       component: () => import('../views/CodedPostcardView.vue')
     },
+
+    {
+      path: '/WhileInBattle',
+      name: 'WhileInBattle',
+      component: () => import('../views/WhileInBattleView.vue')
+    },
+
+    {
+      path: '/DataVisualization',
+      name: 'DataVisualization',
+      component: () => import('../views/DataVisualizationView.vue')
+    },
+
+    {
+      path: '/aHopeWithin',
+      name: 'aHopeWithin',
+      component: () => import('../views/aHopeWithinView.vue')
+    },
     
+    {
+      path: '/FroggyMan',
+      name: 'FroggyMan',
+      component: () => import('../views/FroggyManView.vue')
+    },
   ]
 })
 
