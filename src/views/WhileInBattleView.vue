@@ -7,6 +7,14 @@
   
       <!-- Description -->
       <p class="description">
+        "While in battle, I'm free" is a dance performance that I was allowed to use as inspiration during my exam project. Based on this, I created my own take on how a possible website and poster could look.
+        The performance brings together dancers from the Swedish dance company Cullberg and dancers from the street dance community, in a unique collaboration choreographed by Hooman Sharifi. <br><br>
+        They come from different backgrounds and styles, which is clearly felt in the performance — where they influence each other and create something entirely new together.
+        The dancers meet in both resistance and unity. They rise from the struggle — as individuals and as a group. It’s about standing up for yourself, fighting for what you believe in, and expressing yourself through your own movement and language.
+        <br><br>The music, composed by Neda Sanai, is based on Iranian folk songs that have been deconstructed and reimagined to match the intense atmosphere and energy of the performance.
+        Since the essence of the piece is about bringing together nationalities and dance styles to create a bigger, unified picture, I chose to reflect that in my visual concept and design choices.
+       <br><br> In addition to creating a visual identity, website, and poster, I was also tasked with developing an interactive element for the site. I decided to let users draw and modify the homepage themselves.
+        The idea was to invite users to leave their personal mark on the project — to become part of the bigger picture. These drawings and expressions could then be displayed during the exhibition.
         
       </p>
   
@@ -32,13 +40,11 @@
     data() {
       return {
         images: [
-          { src: '/assets/portfolioPic/EP02.png', alt: 'Image 2' },
-          { src: '/assets/portfolioPic/EP01.png', alt: 'Image 1' },
-          { src: '/assets/portfolioPic/EP03.png', alt: 'Image 3' },
-          { src: '/assets/portfolioPic/EP04.png', alt: 'Image 4' },
-          { src: '/assets/portfolioPic/EP05.png', alt: 'Image 5' },
-          { src: '/assets/portfolioPic/EP06.png', alt: 'Image 6' },
-          { src: '/assets/portfolioPic/EP07.png', alt: 'Image 7' }
+          { src: 'src/assets/portfolioPic/WIB.png', alt: 'Image 2' },
+          { src: 'src/assets/portfolioPic/WIB1.png', alt: 'Image 1' },
+          { src: 'src/assets/portfolioPic/WIB2.png', alt: 'Image 3' },
+          { src: 'src/assets/portfolioPic/WIB3.png', alt: 'Image 4' },
+         
         ]
       };
     }

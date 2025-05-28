@@ -74,6 +74,18 @@ const router = createRouter({
     },
 
     {
+      path: '/NeckPain',
+      name: 'NeckPain',
+      component: () => import('../views/NeckPainView.vue')
+    },
+
+    {
+      path: '/TheBurriedPast',
+      name: 'TheBurriedPast',
+      component: () => import('../views/TheBurriedPastView.vue')
+    },
+
+    {
       path: '/aHopeWithin',
       name: 'aHopeWithin',
       component: () => import('../views/aHopeWithinView.vue')

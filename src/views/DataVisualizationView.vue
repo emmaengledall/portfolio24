@@ -7,10 +7,13 @@
   
       <!-- Description -->
       <p class="description">
-        
+        During the 3rd semester, we had a course on data visualization. At first, I thought it would be a topic that might bore me a bit. Data? Doesn’t seem particularly interesting... But after a few hours, I was completely on board with the idea.
+        <br>Taking a dataset—which on its own doesn't always seem very exciting—and then, through visual tools and storytelling, allowing the numbers to tell a story that engages the viewer and helps them understand the data in a whole new way.
+        <br><br> Data visualization suddenly took on a whole new meaning for me. As a digital designer, who often works with code and knows that everything around us consists of numbers and systems we often overlook because they seem overwhelming or uninteresting, data visualization offers the opportunity to understand our world just a little bit better.
+        <br><br>In this course, we worked with different datasets to explore whether it has become more difficult for young people in Denmark to buy a home compared to previous generations. Based on this, we created an explainer and visualized datasets to make the topic a bit more engaging and easier to understand.
       </p>
   
-      <!-- Images -->
+      <!-- Images and Video -->
       <div class="image-container">
         <div class="images-wrapper">
           <div class="grid gap-5">
@@ -22,6 +25,24 @@
               <img :src="image.src" :alt="image.alt" class="image-tag" />
             </div>
           </div>
+  
+          <!-- Video under images -->
+          <div class="video">
+            <video autoplay muted loop playsinline class="video-tag">
+              <source src="../assets/portfolioPic/DVvideo.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <!-- Second video under the first one -->
+        <div class="video">
+            <video autoplay muted loop playsinline class="video-tag">
+             <source src="../assets/portfolioPic/DVvideo1.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
         </div>
       </div>
     </div>
@@ -32,13 +53,8 @@
     data() {
       return {
         images: [
-          { src: '/assets/portfolioPic/EP02.png', alt: 'Image 2' },
-          { src: '/assets/portfolioPic/EP01.png', alt: 'Image 1' },
-          { src: '/assets/portfolioPic/EP03.png', alt: 'Image 3' },
-          { src: '/assets/portfolioPic/EP04.png', alt: 'Image 4' },
-          { src: '/assets/portfolioPic/EP05.png', alt: 'Image 5' },
-          { src: '/assets/portfolioPic/EP06.png', alt: 'Image 6' },
-          { src: '/assets/portfolioPic/EP07.png', alt: 'Image 7' }
+          { src: 'src/assets/portfolioPic/DV.png', alt: 'Image 1' },
+          { src: 'src/assets/portfolioPic/DV2.png', alt: 'Image 2' },
         ]
       };
     }
@@ -53,10 +69,10 @@
     grid-template-rows: auto auto 1fr;
     width: 100vw;
     min-height: 100vh;
-    background-color: #fef3c7; /* bg-amber-100 */
+    background-color: #fef3c7;
     font-family: 'AndaleMo', sans-serif;
     color: black;
-    font-size: 0.875rem; /* text-sm */
+    font-size: 0.875rem;
     overflow-y: auto;
   }
   
@@ -99,6 +115,19 @@
     border-radius: 0.5rem;
   }
   
+  /* Video styling */
+  .video {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-tag {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
   /* === Mobile layout (≤ 430px) === */
   @media (max-width: 430px) {
     .DataVisualization {
@@ -125,7 +154,8 @@
       padding: 0;
     }
   
-    .image-tag {
+    .image-tag,
+    .video-tag {
       width: 100%;
     }
   }
