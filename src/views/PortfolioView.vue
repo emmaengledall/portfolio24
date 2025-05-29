@@ -74,7 +74,7 @@
           </div>
 
           <div class="project text-center sm:text-left w-full">
-            <RouterLink to="/FroggyMan" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">THE BURRIED PAST</RouterLink>
+            <RouterLink to="/TheBurriedPast" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">THE BURRIED PAST</RouterLink>
             <p class="text-sm">- Experience Design, Apr. 25</p>
           </div>
 
@@ -96,7 +96,7 @@
           </div>
 
       
-          <div class="project text-center sm:text-left w-full">
+          <!-- <div class="project text-center sm:text-left w-full">
             <RouterLink to="/DataVisualization" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">DATA VISUALIZATION</RouterLink>
             <p class="text-sm">- Storytelling with data, Sep. 24</p>
           </div>
@@ -104,7 +104,7 @@
           <div class="project text-center sm:text-left w-full">
             <RouterLink to="/FroggyMan" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">SOMETHING</RouterLink>
             <p class="text-sm">- Game Design, May. 25</p>
-          </div>
+          </div> -->
 
 
         </div>

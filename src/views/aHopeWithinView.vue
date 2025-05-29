@@ -7,11 +7,19 @@
   
       <!-- Description -->
       <p class="description">
+        In the spring of 2025, we had a course focused on projection mapping. The beginning of the course was unlike anything we had tried before, as we were given the opportunity to create an actual artwork for an exhibition at Thoravej 29 – SNART.
+We were introduced to the exhibition by art curator Majken Overgaard, with whom we collaborated to create a piece that communicated the right message.
+<br><br>The theme we were asked to work with was hope. In collaboration with the organization Generation Hope, each of us was assigned to create a projection for a vase. Our projection had to interpret and visually represent selected letters written by other young people over the past six months. These letters were “love letters to the future” — filled with messages of hope and wishes for a better world: no more war, no more hunger, no more climate crisis.
+<br>However, some letters were also filled with fear and skepticism about whether the world would actually improve. The few letters where hope was expressed ironically or brutally were the ones I found the most interesting.
+I teamed up with Mille Rørbæk to create a brutal image of ironic hope — a hope that could be found from within, quite literally. One of the letters we chose to interpret spoke about death. The writer mentioned they were looking forward to dying in a war they had nothing to do with and couldn’t wait for their homeland to be submerged by rising sea levels.
+<br><br>We decided to create a visually harsh yet meaningful narrative — a story of hope that emerges from within, spreading with a twist of fear and grotesque symbolism.
+We ended up filling pig intestines with soil and blood, and filmed them being cut open. On top of that, we animated short but powerful quotes from the letters. This act symbolized hope being cut free from within — a dark yet poetic way to show that even the most brutal beginnings can give rise to something new.
         
       </p>
   
       <!-- Images -->
-      <div class="image-container">
+            <!-- Images and Video -->
+            <div class="image-container">
         <div class="images-wrapper">
           <div class="grid gap-5">
             <div
@@ -22,6 +30,24 @@
               <img :src="image.src" :alt="image.alt" class="image-tag" />
             </div>
           </div>
+  
+          <!-- Video under images -->
+          <div class="video">
+            <video autoplay muted loop playsinline class="video-tag">
+              <source src="../assets/portfolioPic/tarmvideo2.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <!-- Second video under the first one -->
+        <div class="video">
+            <video autoplay muted loop playsinline class="video-tag">
+             <source src="../assets/portfolioPic/Tarmvideo1.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
         </div>
       </div>
     </div>
@@ -32,13 +58,9 @@
     data() {
       return {
         images: [
-          { src: '/assets/portfolioPic/EP02.png', alt: 'Image 2' },
-          { src: '/assets/portfolioPic/EP01.png', alt: 'Image 1' },
-          { src: '/assets/portfolioPic/EP03.png', alt: 'Image 3' },
-          { src: '/assets/portfolioPic/EP04.png', alt: 'Image 4' },
-          { src: '/assets/portfolioPic/EP05.png', alt: 'Image 5' },
-          { src: '/assets/portfolioPic/EP06.png', alt: 'Image 6' },
-          { src: '/assets/portfolioPic/EP07.png', alt: 'Image 7' }
+          { src: 'src/assets/portfolioPic/HW.jpg', alt: 'Image 2' },
+          { src: 'src/assets/portfolioPic/HW1.jpg', alt: 'Image 1' },
+          { src: 'src/assets/portfolioPic/HW2.jpg', alt: 'Image 3' },
         ]
       };
     }
@@ -98,6 +120,19 @@
     object-fit: contain;
     border-radius: 0.5rem;
   }
+
+  /* Video styling */
+  .video {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-tag {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
   
   /* === Mobile layout (≤ 430px) === */
   @media (max-width: 430px) {
@@ -126,6 +161,10 @@
     }
   
     .image-tag {
+      width: 100%;
+    }
+
+    .video-tag {
       width: 100%;
     }
   }

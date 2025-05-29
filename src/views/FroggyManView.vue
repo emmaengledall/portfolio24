@@ -7,11 +7,18 @@
   
       <!-- Description -->
       <p class="description">
+        The final course before wrapping up our 4th semester was Game Design — a course many of us had been looking forward to, especially me. After our Experience Design module, I had discovered a hidden passion for creating immersive and interactive experiences through code and technology.
+It was also the first time we had the opportunity to work with Unity, under the guidance of two external instructors.
+<br><br>The first two weeks were spent getting familiar with the Unity engine, and then we had four days to develop our own game from scratch.
+I worked alongside two Interactive Design students: Rasmus Hauge and Carolina Díaz.
+Together, we created a simple game using self-produced assets and characters. We named the game "Froggy Man", and the goal was simple: reach the top by jumping across lily pads!
+<br><br>The process was fun, collaborative, and a great experience overall. It was a lighthearted product we could laugh about, and the project strengthened our skills — and confidence — in working with Unity.
         
       </p>
   
       <!-- Images -->
-      <div class="image-container">
+            <!-- Images and Video -->
+            <div class="image-container">
         <div class="images-wrapper">
           <div class="grid gap-5">
             <div
@@ -22,6 +29,17 @@
               <img :src="image.src" :alt="image.alt" class="image-tag" />
             </div>
           </div>
+  
+          <!-- Video under images -->
+          <div class="video">
+            <video autoplay muted loop playsinline class="video-tag">
+              <source src="../assets/portfolioPic/FM2.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+
+
         </div>
       </div>
     </div>
@@ -32,13 +50,9 @@
     data() {
       return {
         images: [
-          { src: '/assets/portfolioPic/EP02.png', alt: 'Image 2' },
-          { src: '/assets/portfolioPic/EP01.png', alt: 'Image 1' },
-          { src: '/assets/portfolioPic/EP03.png', alt: 'Image 3' },
-          { src: '/assets/portfolioPic/EP04.png', alt: 'Image 4' },
-          { src: '/assets/portfolioPic/EP05.png', alt: 'Image 5' },
-          { src: '/assets/portfolioPic/EP06.png', alt: 'Image 6' },
-          { src: '/assets/portfolioPic/EP07.png', alt: 'Image 7' }
+          { src: 'src/assets/portfolioPic/FM.png', alt: 'Image 2' },
+          { src: 'src/assets/portfolioPic/FM1.png', alt: 'Image 1' },
+       
         ]
       };
     }
@@ -98,6 +112,20 @@
     object-fit: contain;
     border-radius: 0.5rem;
   }
+
+  /* Video styling */
+  .video {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-tag {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
   
   /* === Mobile layout (≤ 430px) === */
   @media (max-width: 430px) {
@@ -126,6 +154,10 @@
     }
   
     .image-tag {
+      width: 100%;
+    }
+
+    .video-tag {
       width: 100%;
     }
   }
