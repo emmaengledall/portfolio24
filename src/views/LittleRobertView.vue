@@ -2,8 +2,11 @@
   <div class="LittleRobert">
     <!-- Navigation -->
     <div class="nav">
-      <RouterLink to="/Portfolio">// LITTLE ROBERT</RouterLink>
+      <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
     </div>
+
+        <!-- Title -->
+        <p class="title">LITTLE ROBERT</p>
 
     <!-- Description -->
     <p class="description">
@@ -70,6 +73,13 @@ export default {
 .nav {
   grid-column: 1 / 2;
   padding: 5rem 2rem 1rem;
+}
+
+.title {
+  grid-column: 1 / 2;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .description {

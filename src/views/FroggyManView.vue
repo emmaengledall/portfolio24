@@ -2,8 +2,11 @@
     <div class="FroggyMan">
       <!-- Navigation -->
       <div class="nav">
-        <RouterLink to="/Portfolio">// FROGGY MAN</RouterLink>
+        <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
       </div>
+
+       <!-- Title -->
+       <p class="title">FROGGY MAN</p>
   
       <!-- Description -->
       <p class="description">
@@ -78,6 +81,13 @@ Together, we created a simple game using self-produced assets and characters. We
     grid-column: 1 / 2;
     padding: 5rem 2rem 1rem;
   }
+
+  .title {
+  grid-column: 1 / 2;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
   
   .description {
     grid-column: 1 / 2;

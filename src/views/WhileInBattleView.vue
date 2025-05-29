@@ -2,8 +2,11 @@
     <div class="ExamProject01">
       <!-- Navigation -->
       <div class="nav">
-        <RouterLink to="/Portfolio">// WHILE IN BATTLE, I'M FREE</RouterLink>
+        <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
       </div>
+
+         <!-- Title -->
+         <p class="title">WHILE IN BATTLE I'M FREE - NEVER FREE TO REST.</p>
   
       <!-- Description -->
       <p class="description">
@@ -70,6 +73,14 @@
     grid-column: 1 / 2;
     padding: 5rem 2rem 1rem;
   }
+
+  .title {
+  grid-column: 1 / 2;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
   
   .description {
     grid-column: 1 / 2;

@@ -2,8 +2,11 @@
     <div class="DataVisualization">
       <!-- Navigation -->
       <div class="nav">
-        <RouterLink to="/Portfolio">// DATA VISUALIZATION</RouterLink>
+        <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
       </div>
+
+           <!-- Title -->
+           <p class="title">DATA VISUALIZATION</p>
   
       <!-- Description -->
       <p class="description">
@@ -80,6 +83,13 @@
     grid-column: 1 / 2;
     padding: 5rem 2rem 1rem;
   }
+
+  .title {
+  grid-column: 1 / 2;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
   
   .description {
     grid-column: 1 / 2;

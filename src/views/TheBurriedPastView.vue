@@ -2,8 +2,11 @@
     <div class="TheBurriedPast">
       <!-- Navigation -->
       <div class="nav">
-        <RouterLink to="/Portfolio">// THE SNOW BURRIED PAST</RouterLink>
+        <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
       </div>
+
+           <!-- Title -->
+           <p class="title">THE SNOW BURRIED PAST</p>
   
       <!-- Description -->
       <p class="description">
@@ -76,6 +79,13 @@
     grid-column: 1 / 2;
     padding: 5rem 2rem 1rem;
   }
+
+  .title {
+  grid-column: 1 / 2;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
   
   .description {
     grid-column: 1 / 2;

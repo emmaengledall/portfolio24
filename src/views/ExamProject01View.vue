@@ -2,8 +2,10 @@
   <div class="ExamProject01">
     <!-- Navigation -->
     <div class="nav">
-      <RouterLink to="/Portfolio">// EXAM PROJECT 01</RouterLink>
+      <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
     </div>
+
+    <p class="title">EXAM PROJECT 01</p>
 
     <!-- Description -->
     <p class="description">
@@ -70,6 +72,13 @@ export default {
 .nav {
   grid-column: 1 / 2;
   padding: 5rem 2rem 1rem;
+}
+
+.title {
+  grid-column: 1 / 2;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .description {

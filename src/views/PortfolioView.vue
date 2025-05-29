@@ -28,8 +28,6 @@
       </div>
     </div>
 
-
-
     <div class="flex flex-col justify-center text-center justify-around z-10 md:pt-[40%] md:pl-[30%]"> 
       <div class="scroll-snap-card">
 
@@ -67,53 +65,37 @@
 
         <!-- Slide Group 3 -->
         <div class="slide-group">
-
           <div class="project text-center sm:text-left w-full">
             <RouterLink to="/DataVisualization" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">DATA VISUALIZATION</RouterLink>
             <p class="text-sm">- Storytelling with data, Sep. 24</p>
           </div>
-
           <div class="project text-center sm:text-left w-full">
-            <RouterLink to="/TheBurriedPast" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">THE BURRIED PAST</RouterLink>
+            <RouterLink to="/TheBurriedPast" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">THE SNOW BURRIED PAST</RouterLink>
             <p class="text-sm">- Experience Design, Apr. 25</p>
           </div>
-
           <div class="project text-center sm:text-left w-full">
             <RouterLink to="/aHopeWithin" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">A HOPE WITHIN</RouterLink>
             <p class="text-sm">- Projection mapping, Mar. 25</p>
           </div>
-
-    
         </div>
 
-
         <!-- Slide Group 4 -->
-         <div class="slide-group">
-
+        <div class="slide-group">
           <div class="project text-center sm:text-left w-full">
             <RouterLink to="/FroggyMan" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">FROGGY MAN</RouterLink>
             <p class="text-sm">- Game Design, May. 25</p>
           </div>
-
-      
-          <!-- <div class="project text-center sm:text-left w-full">
-            <RouterLink to="/DataVisualization" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">DATA VISUALIZATION</RouterLink>
-            <p class="text-sm">- Storytelling with data, Sep. 24</p>
-          </div>
-
-          <div class="project text-center sm:text-left w-full">
-            <RouterLink to="/FroggyMan" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">SOMETHING</RouterLink>
-            <p class="text-sm">- Game Design, May. 25</p>
-          </div> -->
-
-
         </div>
 
       </div>
-    </div>
 
+      <!-- Scroll instruction -->
+      <p class="scroll text-white text-sm mr-[45%] animate-bounce">scroll!</p>
+
+    </div>
   </div>
 </template>
+
 
 
 
@@ -168,6 +150,9 @@
   .slide-group {
     gap: 0.25rem; /* Maintain tight spacing between groups on small screens */
   }
+
+  .scroll {
+    display: none;  }
 
  
 

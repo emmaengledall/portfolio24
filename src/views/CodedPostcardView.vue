@@ -2,8 +2,11 @@
   <div class="CodedPostcard">
     <!-- Navigation -->
     <div class="nav">
-      <RouterLink to="/Portfolio">// CODED POSTCARD</RouterLink>
+      <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
     </div>
+
+       <!-- Title -->
+       <p class="title">CODED POSTCARDS</p>
 
     <!-- Description -->
     <p class="description">
@@ -69,6 +72,13 @@ export default {
 .description {
   grid-column: 1 / 2;
   padding: 2rem;
+}
+
+.title {
+  grid-column: 1 / 2;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .image-container {
