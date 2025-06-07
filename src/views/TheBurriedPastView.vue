@@ -59,9 +59,9 @@
     data() {
       return {
         images: [
-          { src: 'src/assets/portfolioPic/TSBP.png', alt: 'Image 2' },
-          { src: 'src/assets/portfolioPic/TSBP1.png', alt: 'Image 1' },
-          { src: 'src/assets/portfolioPic/TSBP2.png', alt: 'Image 3' },
+          { src: '/assets/portfolioPic/TSBP.png', alt: 'Image 2' },
+          { src: '/assets/portfolioPic/TSBP1.png', alt: 'Image 1' },
+          { src: '/assets/portfolioPic/TSBP2.png', alt: 'Image 3' },
         ]
       };
     }

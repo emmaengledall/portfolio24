@@ -56,8 +56,8 @@
     data() {
       return {
         images: [
-          { src: 'src/assets/portfolioPic/DV.png', alt: 'Image 1' },
-          { src: 'src/assets/portfolioPic/DV2.png', alt: 'Image 2' },
+          { src: '/assets/portfolioPic/DV.png', alt: 'Image 1' },
+          { src: '/assets/portfolioPic/DV2.png', alt: 'Image 2' },
         ]
       };
     }

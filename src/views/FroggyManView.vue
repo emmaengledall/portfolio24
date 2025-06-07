@@ -53,8 +53,8 @@ Together, we created a simple game using self-produced assets and characters. We
     data() {
       return {
         images: [
-          { src: 'src/assets/portfolioPic/FM.png', alt: 'Image 2' },
-          { src: 'src/assets/portfolioPic/FM1.png', alt: 'Image 1' },
+          { src: '/assets/portfolioPic/FM.png', alt: 'Image 2' },
+          { src: '/assets/portfolioPic/FM1.png', alt: 'Image 1' },
        
         ]
       };

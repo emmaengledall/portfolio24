@@ -61,9 +61,9 @@ We ended up filling pig intestines with soil and blood, and filmed them being cu
     data() {
       return {
         images: [
-          { src: 'src/assets/portfolioPic/HW.jpg', alt: 'Image 2' },
-          { src: 'src/assets/portfolioPic/HW1.jpg', alt: 'Image 1' },
-          { src: 'src/assets/portfolioPic/HW2.jpg', alt: 'Image 3' },
+          { src: '/assets/portfolioPic/HW.jpg', alt: 'Image 2' },
+          { src: '/assets/portfolioPic/HW1.jpg', alt: 'Image 1' },
+          { src: '/assets/portfolioPic/HW2.jpg', alt: 'Image 3' },
         ]
       };
     }
