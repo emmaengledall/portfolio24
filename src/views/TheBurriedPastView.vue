@@ -34,11 +34,19 @@
   
           <!-- Video under images -->
           <div class="video">
-            <video controls class="video-tag">
-              <source src="../assets/portfolioPic/TSBP.mov" type="video/mp4" />
+            <video autoplay muted loop playsinline class="video-tag">
+              <source src="../assets/portfolioPic/TSBPshort1.mov" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
+
+            <div class="video">
+            <video autoplay muted loop playsinline class="video-tag">
+              <source src="../assets/portfolioPic/TSBPshort2.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+         
 
 
         </div>

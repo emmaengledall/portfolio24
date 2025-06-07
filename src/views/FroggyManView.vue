@@ -36,7 +36,7 @@ Together, we created a simple game using self-produced assets and characters. We
           <!-- Video under images -->
           <div class="video">
             <video autoplay muted loop playsinline class="video-tag">
-              <source src="../assets/portfolioPic/FM2.mov" type="video/mp4" />
+              <source src="../assets/portfolioPic/FM2short.mov" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

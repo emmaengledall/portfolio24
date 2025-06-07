@@ -45,7 +45,7 @@ We ended up filling pig intestines with soil and blood, and filmed them being cu
           <!-- Second video under the first one -->
         <div class="video">
             <video autoplay muted loop playsinline class="video-tag">
-             <source src="../assets/portfolioPic/Tarmvideo1.mov" type="video/mp4" />
+             <source src="../assets/portfolioPic/tarmvideoShort.mov" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </div>
