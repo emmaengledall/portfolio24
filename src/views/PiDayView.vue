@@ -111,9 +111,7 @@ export default {
   transform: translateY(20px);
 }
 
-.image:hover {
-  transform: scale(1.05) translateY(-10px);
-}
+
 
 .image-tag {
   width: 100%;
