@@ -43,10 +43,10 @@
     data() {
       return {
         images: [
-          { src: 'src/assets/portfolioPic/WIB.png', alt: 'Image 2' },
-          { src: 'src/assets/portfolioPic/WIB1.png', alt: 'Image 1' },
-          { src: 'src/assets/portfolioPic/WIB2.png', alt: 'Image 3' },
-          { src: 'src/assets/portfolioPic/WIB3.png', alt: 'Image 4' },
+          { src: 'public/assets/portfolioPic/WIB.png', alt: 'Image 2' },
+          { src: 'public/assets/portfolioPic/WIB1.png', alt: 'Image 1' },
+          { src: 'public/assets/portfolioPic/WIB2.png', alt: 'Image 3' },
+          { src: 'public/assets/portfolioPic/WIB3.png', alt: 'Image 4' },
          
         ]
       };
