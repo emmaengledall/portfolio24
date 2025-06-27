@@ -96,6 +96,12 @@ const router = createRouter({
       name: 'FroggyMan',
       component: () => import('../views/FroggyManView.vue')
     },
+
+    {
+      path: '/HavetUnderPres',
+      name: 'HavetUnderPres',
+      component: () => import('../views/HavetUnderPresView.vue')
+    },
   ]
 })
 

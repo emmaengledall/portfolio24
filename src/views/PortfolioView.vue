@@ -85,6 +85,12 @@
             <RouterLink to="/FroggyMan" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">FROGGY MAN</RouterLink>
             <p class="text-sm">- Game Design, May. 25</p>
           </div>
+
+          <div class="project text-center sm:text-left w-full">
+            <RouterLink to="/HavetUnderPres" class="inline-block cursor-pointer hover:line-through text-xl sm:text-3xl text-white">HAVET UNDER PRES</RouterLink>
+            <p class="text-sm">- VR learning experience, June 25</p>
+          </div>
+
         </div>
 
       </div>
