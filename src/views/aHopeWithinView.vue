@@ -1,60 +1,55 @@
 <template>
-    <div class="aHopeWithin">
-      <!-- Navigation -->
-      <div class="nav">
-        <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
-      </div>
+  <div class="aHopeWithin">
+    <!-- Navigation -->
+    <div class="nav">
+      <RouterLink to="/Portfolio">// BACK TO PORTFOLIO</RouterLink>
+    </div>
 
-        <!-- Title -->
-        <p class="title">THE HOPE WITHIN</p>
-  
-      <!-- Description -->
-      <p class="description">
-        In the spring of 2025, we had a course focused on projection mapping. The beginning of the course was unlike anything we had tried before, as we were given the opportunity to create an actual artwork for an exhibition at Thoravej 29 – SNART.
-We were introduced to the exhibition by art curator Majken Overgaard, with whom we collaborated to create a piece that communicated the right message.
-<br><br>The theme we were asked to work with was hope. In collaboration with the organization Generation Hope, each of us was assigned to create a projection for a vase. Our projection had to interpret and visually represent selected letters written by other young people over the past six months. These letters were “love letters to the future” — filled with messages of hope and wishes for a better world: no more war, no more hunger, no more climate crisis.
-<br>However, some letters were also filled with fear and skepticism about whether the world would actually improve. The few letters where hope was expressed ironically or brutally were the ones I found the most interesting.
-I teamed up with Mille Rørbæk to create a brutal image of ironic hope — a hope that could be found from within, quite literally. One of the letters we chose to interpret spoke about death. The writer mentioned they were looking forward to dying in a war they had nothing to do with and couldn’t wait for their homeland to be submerged by rising sea levels.
-<br><br>We decided to create a visually harsh yet meaningful narrative — a story of hope that emerges from within, spreading with a twist of fear and grotesque symbolism.
-We ended up filling pig intestines with soil and blood, and filmed them being cut open. On top of that, we animated short but powerful quotes from the letters. This act symbolized hope being cut free from within — a dark yet poetic way to show that even the most brutal beginnings can give rise to something new.
-        
-      </p>
-  
-      <!-- Images -->
-            <!-- Images and Video -->
-            <div class="image-container">
-        <div class="images-wrapper">
-          <div class="grid gap-5">
-            <div
-              v-for="(image, index) in images"
-              :key="index"
-              class="image"
-            >
-              <img :src="image.src" :alt="image.alt" class="image-tag" />
-            </div>
-          </div>
-  
-          <!-- Video under images -->
-          <div class="video">
-            <video autoplay muted loop playsinline class="video-tag">
-              <source src="../assets/portfolioPic/tarmvideo2.mov" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+    <!-- Title -->
+    <p class="title">THE HOPE WITHIN</p>
 
-          <!-- Second video under the first one -->
+    <!-- Description -->
+    <p class="description">
+      In spring 2025, we explored projection mapping by creating artwork for the Thoravej 29 – SNART exhibition. Guided by curator Majken Overgaard and working with Generation Hope, we were tasked to interpret letters from young people expressing hope for the future.  
+      <br><br>
+      I collaborated with Mille Rørbæk to create a brutal, ironic take on hope. We visualized it by filling pig intestines with soil and blood, filming them being cut open, and animating quotes from the letters. This symbolized hope emerging from within — a dark yet poetic narrative where even the harshest beginnings can give rise to something new.
+    </p>
+
+    <!-- Images -->
+    <div class="image-container">
+      <div class="images-wrapper">
+        <!--
+        <div class="grid gap-5">
+          <div
+            v-for="(image, index) in images"
+            :key="index"
+            class="image"
+          >
+            <img :src="image.src" :alt="image.alt" class="image-tag" />
+          </div>
+        </div>
+        -->
+
+        <!-- Video under images -->
         <div class="video">
-            <video autoplay muted loop playsinline class="video-tag">
-             <source src="../assets/portfolioPic/tarmvideoShort.mov" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+          <video autoplay muted loop playsinline class="video-tag">
+            <source src="../assets/portfolioPic/tarmvideo2.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
 
-
+        <!-- Second video under the first one -->
+        <div class="video">
+          <video autoplay muted loop playsinline class="video-tag">
+            <source src="../assets/portfolioPic/tarmvideoShort.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>
-  </template>
+  </div>
+</template>
+
   
   <script>
   export default {

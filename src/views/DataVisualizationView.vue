@@ -10,11 +10,11 @@
   
       <!-- Description -->
       <p class="description">
-        During the 3rd semester, we had a course on data visualization. At first, I thought it would be a topic that might bore me a bit. Data? Doesn’t seem particularly interesting... But after a few hours, I was completely on board with the idea.
-        <br>Taking a dataset—which on its own doesn't always seem very exciting—and then, through visual tools and storytelling, allowing the numbers to tell a story that engages the viewer and helps them understand the data in a whole new way.
-        <br><br> Data visualization suddenly took on a whole new meaning for me. As a digital designer, who often works with code and knows that everything around us consists of numbers and systems we often overlook because they seem overwhelming or uninteresting, data visualization offers the opportunity to understand our world just a little bit better.
-        <br><br>In this course, we worked with different datasets to explore whether it has become more difficult for young people in Denmark to buy a home compared to previous generations. Based on this, we created an explainer and visualized datasets to make the topic a bit more engaging and easier to understand.
-      </p>
+  In our 3rd semester data visualization course, I discovered how datasets can tell engaging stories through design and storytelling.  
+  <br><br>
+  We explored whether it has become harder for young people in Denmark to buy a home compared to previous generations, and created an explainer with visualizations to make the topic more accessible and engaging.  
+</p>
+
   
       <!-- Images and Video -->
       <div class="image-container">

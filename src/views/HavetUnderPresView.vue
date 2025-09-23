@@ -10,13 +10,13 @@
   
       <!-- Description -->
       <p class="description">
-        At the end of our 4th semester, we had to go through an exam. A final examination to complete our second year. The task we were given was to create an educational and engaging experience about the Danish sea. Specifically – what environmental challenges the Danish marine environment is facing.
-<br><br>We chose to focus on overfishing as our main issue. The experience was intended to be part of a traveling exhibition, where it would be presented to Danish schoolchildren. Our target audience was 12–13 years old, and the sender behind the exhibition was Videnskab.dk – a platform where the average user is a student in that age group, using the site for schoolwork and research.
-<br>Therefore, it was important that our product could communicate a complex topic to a younger audience, while still being interesting and engaging. Furthermore, we wanted to stay true to the values Videnskab.dk stands for, and maintain a realistic and trustworthy image.
-<br><br>We chose to create a VR experience – 'Havet under pres' – where the children, through a VR headset, could move around on the seabed and experience the changes the ocean faces when fishing is not done responsibly. On the seabed, the user is guided by the fish "Torben," who narrates and shows the children around the different interactive experiences.
-<br><br>Torben guides the children through a timeline, going back to the time before industrial fishing was so effective as it is today, to our time period now where the effects of overfishing shows - lastly we go into a time period in the 'future' where everything is thriving. Corals, fish and seacreatures are alive. 
-<br> We choose to do something, and change the way we treat the ocean.  
-      </p>
+  At the end of our 4th semester, we created an educational VR experience about the Danish sea and its environmental challenges, focusing on overfishing.  
+  <br><br>
+  The project was designed for a traveling exhibition aimed at 12–13-year-old schoolchildren, with Videnskab.dk as the sender. Our goal was to communicate a complex topic in a way that was both engaging and trustworthy.  
+  <br><br>
+  We developed "Havet under pres," where children, guided by the fish Torben, explore the seabed through a VR headset. They experience the ocean’s past, present, and a possible future—where responsible choices lead to thriving marine life.  
+</p>
+
   
       <!-- Images -->
             <!-- Images and Video -->

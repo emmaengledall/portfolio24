@@ -10,19 +10,11 @@
 
     <!-- Description -->
     <p class="description">
-      Before beginning this Blender project, we went through five days of introduction to the program. <br />
-      We went through the basics, like modelling, working with mesh, how to grab, scale and rotate our assets and place them. <br />
-      We worked with different kinds of small basic projects to get comfy using Blender! <br />
-      Later on, I settled on going for a more spacy vibe. <br />
-      My scene ended up being a volcano submerged in lava with a space background. <br />
-      My climber turned into a small robot (named Robert) who found himself in a sticky situation because his spaceship crashed on the island. <br />
-      The surroundings were, as I mentioned, spacy, and the lava had some emission action going on. <br />
-      This made the surrounding objects glow and reflect. <br />
-      Basically, the lava is the most outstanding light source, which creates the wanted gloomy vibe. <br />
-      The background is an HDR picture with spacy stars and colors. <br />
-      The volcano is made using a landscape add-on, and afterwards I added texture and color to get the desired look! <br />
-      The lava is made with an ocean modifier to give it a bumpy look, and the texture is a lava-like picture I found using BlenderKit.
-    </p>
+  After a week of Blender basics, I created a spacy scene with a volcano island submerged in lava.  
+  <br><br>
+  My character, the robot Robert, crashes his spaceship and ends up in a glowing, otherworldly landscape. The lava acts as the main light source, giving the scene a dark and moody atmosphere, enhanced by HDR starry backgrounds and textured surfaces.  
+</p>
+
 
     <!-- Images -->
     <div class="image-container">

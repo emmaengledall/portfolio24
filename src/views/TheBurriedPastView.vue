@@ -10,13 +10,13 @@
   
       <!-- Description -->
       <p class="description">
-        During the 4th semester, we had a course in Experience Design. We had the pleasure of being taught by two talented designers from Manyone, who acted both as mentors and as a helping hand—especially when we were shaping our experiences and the code wasn’t always on our side.
-        <br>The focus of my project was the political tension between the USA, Denmark, and Greenland. At the time of the project, the debate was at its peak, particularly following the public exchange between Donald Trump and Mette Frederiksen.
-        <br>After extensive research and several brainstorming sessions, I decided that I didn’t want my project to reflect the political debate itself. Instead, I wanted to highlight the Greenlandic people and their right to freedom and independence. I felt that their voices weren’t being heard, and that not enough attention was being given to their history and the oppression they have experienced as a people.
-        <br><br>I chose to create an experience in Three.js, where users could explore Greenland’s past by uncovering fragments of its history—hidden within a snowstorm. The snowstorm was designed to symbolize the confusion and turmoil the Greenlandic people have had to navigate while building their culture—a political storm that has long neglected their traditions and silenced their voices.
-       <br>Within this snowstorm, users can move across the Greenlandic ice sheet, discovering memories within the storm. These memories contain illustrations that tell the story of the Inuit people—from their early days in Greenland and how they shaped their way of life based on the natural environment, to the present day.
-        <br>The intention was for the stories to guide the user through Greenland’s historical journey, all the way to modern times.
-      </p>
+  During our 4th semester Experience Design course, I created a Three.js project exploring Greenland’s history and the Inuit people’s journey toward independence.  
+  <br><br>
+  Rather than focusing on the political tensions between the USA, Denmark, and Greenland, I wanted to highlight Greenlandic voices and their cultural history. Users navigate an interactive snowstorm, uncovering fragments of Greenland’s past—illustrations that reveal how the Inuit people shaped their way of life and preserved their traditions despite historical challenges.  
+  <br><br>
+  The snowstorm symbolizes the confusion and turmoil faced by the Greenlandic people, guiding users through a historical journey from early times to the present day, giving context and depth to their story in an engaging, interactive experience.
+</p>
+
   
       <!-- Images -->
            <!-- Images and Video -->
