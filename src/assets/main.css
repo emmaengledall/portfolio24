@@ -9,7 +9,9 @@
 }
 
 body{
-  overflow: hidden;
+  overflow-x: hidden; /* kun skjul vandret scroll */
+  overflow-y: auto;   /* tillad lodret scroll */
+  min-height: 100%;
   
 }
 

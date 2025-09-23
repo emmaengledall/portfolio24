@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col justify-center text-center justify-around z-10 md:pt-[40%] md:pl-[30%]"> 
+    <div class="flex flex-col justify-center text-center z-10 md:pt-[40%] md:pl-[30%]"> 
       <div class="scroll-snap-card">
 
         <!-- Slide Group 1 -->
